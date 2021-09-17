@@ -1,5 +1,22 @@
+html{
+	padding: 0px auto 0px auto;
+	border: 0px auto 0px auto;
+	margin: 0px auto 0px auto;
+}
+
 body{
 	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	/* Centrage du texte "Title" */
+	text-align:center;
+	color:black;
+	background:#EAEDED;
+}
+
+nav{
+	padding-bottom: 1%;
 }
 
 footer{
@@ -13,8 +30,14 @@ footer{
 	text-align:center;
 }
 
-
 .title{
-	/* Centrage du texte "Title" */
-	text-align:center;
+	padding-top:1%;
+}
+
+.subtitle{
+	font-size:smaller;
+}
+
+.header-link{
+	margin-left: 5%;
 }
