@@ -6,6 +6,7 @@ html{
 body{
 	/* Définition de la police d'écriture */
 	font-family: 'Roboto', sans-serif;
+	background-image: url("../img/test.png");
 	margin:0;
 }
 
@@ -46,7 +47,8 @@ footer{
 }
 
 .realbody{
+	/* Positionnement du texte*/
+	text-align:right;
 	margin-top:15%;
 	margin-right:5%;
-	text-align:right;
 }
