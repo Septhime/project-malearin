@@ -4,6 +4,7 @@ html{
 }
 
 body{
+	/* Définition de la police d'écriture */
 	font-family: 'Roboto', sans-serif;
 	margin:0;
 }
@@ -35,9 +36,17 @@ footer{
 }
 
 .subtitle{
+	/* Rétrécissement du texte dans la balise subtitle */
 	font-size:smaller;
 }
 
 .header-link{
+	/* Espace entre les liens dans le header */
 	margin-left: 5%;
+}
+
+.realbody{
+	margin-top:15%;
+	margin-right:5%;
+	text-align:right;
 }
