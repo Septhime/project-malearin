@@ -29,6 +29,8 @@ footer{
 	position:absolute; 
 	bottom:0;
 	width:100%;
+	padding-top:5px;
+	height:5px;
 	/* Centrage du texte dans le footer */
 	text-align:center;
 }
