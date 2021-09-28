@@ -22,6 +22,9 @@ nav{
 }
 
 footer{
+	/* Design du footer */
+	background:black;
+	color:white;
 	/* Positionnement du footer */
 	position:absolute; 
 	bottom:0;
@@ -30,9 +33,6 @@ footer{
 	height:50px;
 	/* Centrage du texte dans le footer */
 	text-align:center;
-	/* Design du footer */
-	background:black;
-	color:white;
 }
 
 .title{
