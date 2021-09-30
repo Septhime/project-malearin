@@ -54,4 +54,6 @@ footer{
 	text-align:right;
 	margin-top:15%;
 	margin-right:5%;
+	/* Taille du texte */
+	font-size:xx-large;
 }
