@@ -19,7 +19,7 @@ header{
 }
 
 nav{
-	padding-bottom: 1%;
+	padding-bottom: 10px;
 }
 
 footer{
@@ -36,7 +36,7 @@ footer{
 }
 
 .title{
-	padding-top:1%;
+	padding-top:10px;
 }
 
 .subtitle{
@@ -52,7 +52,12 @@ footer{
 .realbody{
 	/* Positionnement du texte*/
 	text-align:right;
-	margin-top:20%;
+	margin-top:350px;
 	margin-right:5%;
 	font-size:xx-large;
+}
+
+.aboutus{
+	text-align:center;
+	margin-top:500px;
 }
