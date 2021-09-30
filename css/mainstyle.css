@@ -7,6 +7,7 @@ body{
 	/* Définition de la police d'écriture */
 	font-family: 'Roboto', sans-serif;
 	background-image: url("../img/test.png");
+	background-size: cover;
 	margin:0;
 }
 
