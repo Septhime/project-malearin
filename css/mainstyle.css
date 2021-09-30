@@ -30,7 +30,6 @@ footer{
 	bottom:0;
 	width:100%;
 	padding-top:5px;
-	height:5px;
 	/* Centrage du texte dans le footer */
 	text-align:center;
 }
@@ -54,6 +53,4 @@ footer{
 	text-align:right;
 	margin-top:15%;
 	margin-right:5%;
-	/* Taille du texte */
-	font-size:xx-large;
 }
