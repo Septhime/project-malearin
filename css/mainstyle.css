@@ -28,6 +28,7 @@ footer{
 	color:white;
 	/* Positionnement du footer */
 	width:100%;
+	bottom:0;
 	padding-top:5px;
 	/* Centrage du texte dans le footer */
 	text-align:center;
