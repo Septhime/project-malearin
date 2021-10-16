@@ -7,3 +7,10 @@ color: black;
 .ilustrations{
 	width: 25%;	
 }
+.sources{
+	text-align: center;
+	background:#d0d0d0;
+}
+.sources-link{
+	/* Espace entre les liens dans les sources */
+	margin-left: 0.5%;
