@@ -1,11 +1,24 @@
+body{
+	background-image: url("../img/test.png");
+}
+
 .realbody{
 color: black;
+margin-top:5%;
+margin-right:5%;
+margin-left:5%;
+font-size:xx-large;
+text-align: center;	
+background-color: #32323280;
+
+}
+
 }
 .logos{
-	width: 25%;
+	width: 49%;
 }
 .ilustrations{
-	width: 25%;	
+	width: 49%;	
 }
 .sources{
 	text-align: center;
@@ -14,3 +27,4 @@ color: black;
 .sources-link{
 	/* Espace entre les liens dans les sources */
 	margin-left: 0.5%;
+}
