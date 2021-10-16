@@ -1,19 +1,20 @@
 body{
-	background-image: url("../img/test.png");
+	background-image: url("../img/backgroundPage1.png");
 }
 
 .realbody{
-color: black;
-margin-top:5%;
-margin-right:5%;
-margin-left:5%;
-font-size:xx-large;
-text-align: center;	
-background-color: #32323280;
+	color: #ffffffff;
+	margin-top:5%;
+	margin-right:5%;
+	margin-left:5%;
+	font-size:xx-large;
+	text-align: center;	
+	background-color: #323232a1;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow:-5px -5px 0px #323232d0;
 
 }
 
-}
 .logos{
 	width: 49%;
 }
@@ -21,6 +22,7 @@ background-color: #32323280;
 	width: 49%;	
 }
 .sources{
+	margin-top: 4%;
 	text-align: center;
 	background:#d0d0d0;
 }
