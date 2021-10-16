@@ -1,11 +1,12 @@
 body {
-	background-image: url("../img/test.png");
-	background-size: cover;
+	background-image: url("../img/test.png");	/*image en fond de la page*/
+	background-size: cover;						/*taille du fond*/
 }
 .realbody{
-	background-size: 50%;
-	background-color: #323232a1;
-	margin-left: 59%;
-	margin-right:5%;
-	border-radius: 10px 10px 10px 10px;
+	/*cadre du texte*/
+	background-size: 50%;				/*taille du cadre*/
+	background-color: #323232a1;		/*couleur du cadre*/
+	margin-left: 59%;					/*distance entre le bord de la page et le cadre, à gauche*/
+	margin-right:5%;					/*distance entre le bord de la page et le cadre, à droite*/
+	border-radius: 10px 10px 10px 10px;	/*arrondit les coins*/
 }

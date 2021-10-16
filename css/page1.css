@@ -1,32 +1,33 @@
 body{
-	background-image: url("../img/backgroundPage1.png");
+	background-image: url("../img/backgroundPage1.png");	/*image en fond de la page*/
+	background-size: cover;									/*taille du fond*/
 }
 
 .realbody{
-	color: #ffffffff;
-	margin-top:5%;
-	margin-right:5%;
-	margin-left:5%;
-	font-size:xx-large;
-	text-align: center;	
-	background-color: #323232a1;
-	border-radius: 10px 10px 10px 10px;
-	box-shadow:-5px -5px 0px #323232d0;
+	/*mise en page du contenu*/
+	color: #ffffffff; 					/*couleur du texte*/
+	margin-top:5%;						/*espace entre le haut et le cadre du texte*/
+	margin-right:5%;					/*espace entre la bordure droite et le cadre du texte*/
+	margin-left:5%;						/*espace entre la bordure gauche et le cadre du texte*/
+	font-size:xx-large;					/*taille de la police*/
+	text-align: center;					/*centre le texte*/
+	background-color: #323232a1;		/*couleur du cadre*/
+	border-radius: 10px 10px 10px 10px;	/*arrondie les bords*/
+	box-shadow:-5px -5px 0px #323232d0;	/*rajoute ombre aux  bord*/
 
 }
 
 .logos{
-	width: 49%;
+	width: 49%;							/*taille des logos*/
 }
 .ilustrations{
-	width: 49%;	
+	width: 49%;							/*taille des ilustrations*/
 }
 .sources{
-	margin-top: 4%;
-	text-align: center;
-	background:#d0d0d0;
+	margin-top: 4%;						/*distance entre le cadre du contenu et le cadre des sources*/
+	text-align: center;					/*met le texte au centre*/
+	background:#d0d0d0;					/*couleur du cadre*/
 }
 .sources-link{
-	/* Espace entre les liens dans les sources */
-	margin-left: 0.5%;
+	margin-left: 0.5%;					/* Espace entre les liens dans les sources */
 }
