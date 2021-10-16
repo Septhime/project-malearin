@@ -19,9 +19,11 @@ body{
 
 .logos{
 	width: 49%;							/*taille des logos*/
+	border-radius: 10px 10px 10px 10px;	/*arrondit les coins*/
 }
 .ilustrations{
 	width: 49%;							/*taille des ilustrations*/
+	border-radius: 10px 10px 10px 10px;	/*arrondit les coins*/
 }
 .sources{
 	margin-top: 4%;						/*distance entre le cadre du contenu et le cadre des sources*/
