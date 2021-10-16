@@ -2,23 +2,3 @@ body {
 	background-image: url("../img/test.png");
 	background-size: cover;
 }
-
-.realbody{
-	/* Positionnement du texte*/
-	text-align:right;
-	margin-top:350px;
-	margin-right:5%;
-	opacity:0.5;
-	font-size:xx-large;
-}
-
-.text-realbody{
-	color:white;
-	background-color:black;
-	opacity:1.5;
-	margin-left:50%;
-	padding-right:2%;
-	padding-left:3px;
-	padding-top:3px;
-	padding-bottom:3px;
-}

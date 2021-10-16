@@ -47,6 +47,15 @@ footer{
 	margin-left: 5%;
 }
 
+.realbody{
+	/* Positionnement du texte*/
+	text-align:right;
+	margin-top:350px;
+	margin-right:5%;
+	font-size:xx-large;
+	color:white;
+}
+
 .aboutus{
 	background:white;
 	color:black;
