@@ -20,3 +20,11 @@ body{
 	width: 49%;							/*taille des ilustrations*/
 	border-radius: 10px 10px 10px 10px;	/*arrondit les coins*/
 }
+.sources{
+	margin-top: 4%;						/*distance entre le cadre du contenu et le cadre des sources*/
+	text-align: center;					/*met le texte au centre*/
+	background:#d0d0d0;					/*couleur du cadre*/
+}
+.sources-link{
+	margin-left: 1%;					/* Espace entre les liens dans les sources */
+}
