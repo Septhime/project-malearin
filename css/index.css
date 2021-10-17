@@ -12,10 +12,10 @@ body {
 }
 
 .aboutus{
-	background:white;
-	color:black;
-	text-align:center;
-	margin-top:500px;
-	padding-top:5px;
-	padding-bottom:5px;
+	background:white;                  /*couleur de fond*/
+	color:black;					   /*couleur du texte*/
+	text-align:center;				   /*Alignement du texte au milieu*/
+	margin-top:500px;				   /*Distance entre le texte realbody et aboutus*/
+	padding-top:5px;				   /*Distance entre margin et aboutus*/
+	padding-bottom:5px;				   /*Distance entre aboutus et le footer*/
 }
