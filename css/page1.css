@@ -14,6 +14,7 @@ body{
 	background-color: #323232a1;		/*couleur du cadre*/
 	border-radius: 10px 10px 10px 10px;	/*arrondie les bords*/
 	box-shadow:-5px 5px 0px #323232d0;	/*rajoute ombre aux  bord*/
+
 }
 
 .logos{
