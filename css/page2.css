@@ -15,3 +15,8 @@ body{
 	border-radius: 10px 10px 10px 10px;	/*arrondie les bords*/
 	box-shadow:-5px 5px 0px #323232d0;	/*rajoute ombre aux  bord*/
 }
+
+.ilustrations{
+	width: 49%;							/*taille des ilustrations*/
+	border-radius: 10px 10px 10px 10px;	/*arrondit les coins*/
+}
