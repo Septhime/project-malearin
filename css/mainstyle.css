@@ -4,63 +4,44 @@ html{
 }
 
 body{
-	/* Définition de la police d'écriture */
-	font-family: 'Roboto', sans-serif;
-	margin:0;
+	font-family: 'Roboto', sans-serif;	/* Définition de la police d'écriture */
+	margin:0;							/*distance entre le bord de la page et le bord du navigateur*/
 }
 
 header{
-	/* Centrage du texte "Title" */
-	text-align:center;
-	color:black;
-	background:#EAEDED;
+	text-align:center;		/* Centrage du texte "Title" */
+	color:black;			/*couleur du texte*/
+	background:#EAEDED;		/*couleur du fond*/
 }
 
 nav{
-	padding-bottom: 10px;
+	padding-bottom: 10px;	/*taille du cadre blanc*/
 }
 
 footer{
 	/* Design du footer */
-	background:black;
-	color:white;
+	background:black;			/*couleur du fond*/
+	color:white;				/*couleur du texte*/
 	/* Positionnement du footer */
-	bottom:0;
-	width:100%;
-	padding-top:5px;
-	height:70px;
+	width:100%;					/*taille horizontal du footer*/
+	height:70px;				/*taille vertical du footer*/
+	padding-top:5px;			/*distance entre le haut de la page et le haut*/
 	/* Centrage du texte dans le footer */
-	text-align:center;
+	text-align:center;			/* Centrage du texte*/
 }
 
 .title{
-	padding-top:10px;
+	padding-top:10px;			/*augmente hauteur page*/
 }
 
 .subtitle{
 	/* Rétrécissement du texte dans la balise subtitle */
-	font-size:smaller;
+	font-size:20px;			/*taille de la police*/
 }
 .haut-de-page{
-	/*souligne le texte du haut de page*/
-	text-decoration:underline;
+	text-decoration:underline;	/*souligne le texte du haut de page*/
 }
 
 .header-link{
-	/* Espace entre les liens dans le header */
-	margin-left: 5%;
-}
-
-.realbody{
-	/* Positionnement du texte*/
-	text-align:right;
-	margin-top:350px;
-	font-size:xx-large;
-	color:white;
-}
-.ancre{
-	/*positionnement de l'ancre et style du texte*/
-	margin-right:90%;
-	text-align:left;
-	color:white;
+	margin-left: 5%;	/* Espace entre les liens dans le header */
 }

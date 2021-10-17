@@ -4,6 +4,11 @@ body {
 }
 .realbody{
 	/*cadre du texte*/
+	text-align:right;			/*aligne le texte à droite*/
+	margin-top:350px;			/*fait déscendre le tyexte*/
+	font-size:xx-large;			/*taille du texte*/
+	color:white;				/*couleur du texte*/
+	
 	background-size: 50%;				/*taille du cadre*/
 	background-color: #323232a1;		/*couleur du cadre*/
 	margin-left: 59%;					/*distance entre le bord de la page et le cadre, à gauche*/
