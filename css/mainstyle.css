@@ -28,7 +28,7 @@ footer{
 	bottom:0;
 	width:100%;
 	padding-top:5px;
-	height:60px;
+	height:70px;
 	/* Centrage du texte dans le footer */
 	text-align:center;
 }
@@ -40,6 +40,10 @@ footer{
 .subtitle{
 	/* Rétrécissement du texte dans la balise subtitle */
 	font-size:smaller;
+}
+.haut-de-page{
+	/*souligne le texte du haut de page*/
+	text-decoration:underline;
 }
 
 .header-link{
@@ -53,4 +57,18 @@ footer{
 	margin-top:350px;
 	font-size:xx-large;
 	color:white;
+}
+.ancre{
+	/*positionnement de l'ancre et style du texte*/
+	margin-right:90%;
+	text-align:left;
+	
+	color:white;
+}
+
+.aboutus{
+	background:white;
+	color:black;
+	text-align:center;
+	margin-top:500px;
 }

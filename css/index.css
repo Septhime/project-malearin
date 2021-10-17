@@ -10,12 +10,3 @@ body {
 	margin-right:5%;					/*distance entre le bord de la page et le cadre, à droite*/
 	border-radius: 10px 10px 10px 10px;	/*arrondit les coins*/
 }
-
-.aboutus{
-	background:white;
-	color:black;
-	text-align:center;
-	margin-top:500px;
-	padding-top:10px;
-	padding-bottom:10px;
-}
