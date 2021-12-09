@@ -1,5 +1,6 @@
-# Project Malearin
+# Project Malearin - Formulaire
 Projet étudiant portant sur la création d'un site internet qui traite de l'apprentissage automatique et de l'intelligence artificielle.
+Cette section de la "main branch" est traite principalement de la création d'un formulaire.
 
 Ce projet est écrit en **html** & en **css**. Il n'est réservé uniquement pour un travail à effectuer en *NSI* au *lycée Pablo Neruda*.
 
