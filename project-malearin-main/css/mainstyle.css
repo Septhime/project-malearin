@@ -1,0 +1,48 @@
+html{
+	margin:0;
+ 	padding:0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;	/* Définition de la police d'écriture */
+	margin:0;							/*distance entre le bord de la page et le bord du navigateur*/
+}
+
+header{
+	text-align:center;		/* Centrage du texte "Title" */
+	color:black;			/*couleur du texte*/
+	background:#EAEDED;		/*couleur du fond*/
+}
+
+nav{
+	padding-bottom: 10px;	/*taille du cadre blanc*/
+}
+
+footer{
+	/* Design du footer */
+	background:black;			/*couleur du fond*/
+	color:white;				/*couleur du texte*/
+	/* Positionnement du footer */
+	width:100%;					/*taille horizontal du footer*/
+	height:70px;				/*taille vertical du footer*/
+	padding-top:5px;			/*distance entre le haut de la page et le haut*/
+	margin-bottom:0%;
+	/* Centrage du texte dans le footer */
+	text-align:center;			/* Centrage du texte*/
+}
+
+.title{
+	padding-top:10px;			/*augmente hauteur page*/
+}
+
+.subtitle{
+	/* Rétrécissement du texte dans la balise subtitle */
+	font-size:20px;			/*taille de la police*/
+}
+.haut-de-page{
+	text-decoration:underline;	/*souligne le texte du haut de page*/
+}
+
+.header-link{
+	margin-left: 5%;	/* Espace entre les liens dans le header */
+}
