@@ -26,6 +26,7 @@ footer{
 	width:100%;					/*taille horizontal du footer*/
 	height:70px;				/*taille vertical du footer*/
 	padding-top:5px;			/*distance entre le haut de la page et le haut*/
+	margin-bottom:0%;
 	/* Centrage du texte dans le footer */
 	text-align:center;			/* Centrage du texte*/
 }
