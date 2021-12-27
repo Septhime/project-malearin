@@ -8,9 +8,9 @@ body{
 	color: #ffffffff; 					/*couleur du texte*/
 	margin-top:5%;						/*espace entre le haut et le cadre du texte*/
 	margin-right:5%;					/*espace entre la bordure droite et le cadre du texte*/
-	font-size:x-large;					/*taille de la police*/
+	font-size:large;					/*taille de la police*/
 }
-h4{
+.CreeruncompteMalearin{
 	text-align:center;
 }
 
@@ -31,6 +31,15 @@ h4{
 }
 
 .left{
-	text-align: left;
-	margin-left:-40%;
+	padding-right:50%;
+}
+
+input{
+	text-align:center;
+}
+
+.single-area{
+	margin-left:50%;
+	display:block;
+	float:left;
 }
