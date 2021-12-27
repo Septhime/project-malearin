@@ -34,19 +34,19 @@
 					<form method="post">
 						<div>
 							<label class="left">Nom</label>
-							<input class="single-area" type="text" name="nom" size="20" required="required"> <br/>
+							<input class="single-area" type="text" name="nom" size="22" required="required"> <br/>
 							
 							<label class="left">Pr&eacute;nom</label> 
-							<input class="single-area" type="text" name="prenom" size="20" required="required"> <br/>
+							<input class="single-area" type="text" name="prenom" size="22" required="required"> <br/>
 							
 							<label class="left" for="adresse">Email</label>
-							<input class="single-area" type="email" name="email" placeholder="Xyz@exem.ple" required="required">	<br/>
+							<input class="single-area" type="email" name="email" placeholder="Xyz@exem.ple" size="22" required="required">	<br/>
 							
 							<label class="left" for="pasword">Mot de passe</label>
-							<input class="single-area" type="password" name="password"required="required"> <br/>
+							<input class="single-area" type="password" name="password" size="22" required="required"> <br/>
 							
 							<label class="left" for="confimation">Confirmation</label>
-							<input class="single-area" type="password" name="confirmation"required="required"> <br/>
+							<input class="single-area" type="password" name="confirmation" size="22" required="required"> <br/>
 						</div>
 						
 						<label class="left">Date de naissance</label>
@@ -65,11 +65,13 @@
 							<option value="novembre">Novembre</option>.
 							<option value="decembre">D&eacute;cembre</option>
 						</select>
-						<input type="number" name="annee" value="2000" min="1920" max="2022" size="2" > <br/>
+						<input type="number" name="annee" value="2000" min="1920" max="2022" size="1" > <br/>
 						
 						<label class="left" for="genre">Genre</label>
-						<input type="radio" name="genre" value="femme" checked> <h4>Mme</h4> <input type="radio" name="genre" value="homme" checked> <h4>M</h4> <input type="radio" name="genre" value="Autre" checked> <h4>Mix</h4> <br/>
-						
+						<div class="radio">
+							<input type="radio" name="genre" value="femme" checked> <h4>Mme</h4> <input type="radio" name="genre" value="homme" checked> <h4>M</h4> <input type="radio" name="genre" value="Autre" checked> <h4>Mix</h4> <br/>
+						</div>
+							
 						<input class="left" type="checkbox" name="pub" value="acceptPub"> Je souhaite recevoir des E-mails &agrave; des fins publicitaires. <br/>
 						<input class="left" type="checkbox" name="pol" value="accept" required="required"> J'accepte les termes du contrat relatif au compte Malearin et confirme avoir pris connaissance de la politique de confidentialit&eacute; du compte Malearin. <br/>
 						

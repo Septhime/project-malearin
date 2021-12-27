@@ -38,8 +38,6 @@ input{
 	text-align:center;
 }
 
-.single-area{
-	margin-left:50%;
-	display:block;
-	float:left;
+.radio{
+	display:flex;
 }
