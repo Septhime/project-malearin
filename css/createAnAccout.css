@@ -8,15 +8,18 @@ body{
 	color: #ffffffff; 					/*couleur du texte*/
 	margin-top:5%;						/*espace entre le haut et le cadre du texte*/
 	margin-right:5%;					/*espace entre la bordure droite et le cadre du texte*/
-	margin-left:5%;						/*espace entre la bordure gauche et le cadre du texte*/
-	font-size:xx-large;					/*taille de la police*/
-	text-align: center;					/*centre le texte*/
-	
+	font-size:x-large;					/*taille de la police*/
 }
+h4{
+	text-align:center;
+}
+
 .formulaire{
 	background-color: #323232;
 	border-radius: 10px 10px 10px 10px;	/*arrondit les coins*/
-	padding:10%;
+	padding:2.5%;
+	padding-right:10%;
+	padding-left:10%;
 	margin-left:30%;
 	margin-right:30%;
 	line-height: 200%;
@@ -25,4 +28,9 @@ body{
 .forgot{
 	margin-right:-130%;
 	font-size:45%;
+}
+
+.left{
+	text-align: left;
+	margin-left:-40%;
 }
