@@ -31,11 +31,7 @@
 		<section class="realbody">
 			<h4>Cr&eacute;er un compte Malearin</h4>
 				<div class="formulaire">
-					<form>
-						<!--
-<label></label> 
-<input> <br/>
--->
+					<form method="post">
 						<label>Nom</label>
 						<input type="text" name="nom" size="20" required="required"> <br/>
 						
@@ -52,7 +48,7 @@
 						<input type="password" name="confirmation"required="required"> <br/>
 						
 						<label>Date de naissance</label>
-						<input type="number" name="jour" value="1" min="1" max="31" size="1" required="required">
+						<input type="number" name="jour" value="1" min="1" max="31" size="1" >
 						<select id="mois">
 							<option value="janvier">Janvier</option>
 							<option value="fevrier">F&eacute;vrier</option>
@@ -67,6 +63,17 @@
 							<option value="novembre">Novembre</option>.
 							<option value="decembre">D&eacute;cembre</option>
 						</select>
+						<input type="number" name="annee" value="2000" min="1920" max="2022" size="2" >
+						
+						<label for="genre">Genre</label>
+						<input type="radio" name="genre" value="femme" checked>Mme <br/>
+						<input type="radio" name="genre" value="homme" checked>M <br/>
+						<input type="radio" name="genre" value="Autre" checked>Mix <br/>
+						
+						<input type="checkbox" name="pub" value="acceptPub"> Je souhaite recevoir des E-mails &agrave; des fins publicitaires. <br/>
+						<input type="checkbox" name="pol" value="accept" required="required"> J'accepte les termes du contrat relatif au compte Malearin et confirme avoir pris connaissance de la politique de confidentialit&eacute; du compte Malearin. <br/>
+						
+						<button type="submit" value="create">Cr&eacute;er mon compte</button>
 						
 						
 					</form>
