@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Malearin Web Site</title>
+		<!-- Information de la page-->
+		<meta charset="utf-8" />
+		<meta name="author" content="Timothée Varin & Corentin Vaillant" />
+		<meta name="keywords" content="log in" />
+		<!-- Police d'ecriture Google-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<!-- Feuilles de styles CSS -->
+		<link href="../css/mainstyle.css" rel="stylesheet">
+		<link href="../css/createAnAccount.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="title">
+				<h1>The Malearin WebSite</h1>
+			</div>
+				<p><span class="subtitle">Le site internet parlant de l'intelligence artificielle et de l'apprentissage automatique</span></p>
+			<!--navigation entre les pages-->
+			<nav >
+				
+			</nav>
+
+		<hr/>
+		</header>
+		<!--contenus-->
+		<section class="realbody">
+			<h4 class="CreeruncompteMalearin">Cr&eacute;er un compte Malearin</h4>
+				<div class="formulaire">
+					<form method="post">
+						<div>
+							<table align="center">
+								<thead>
+									<tr>
+										<td><label class="left">Nom</label></td>
+										<td align="center"><input class="single-area" type="text" name="nom" size="35" required="required"></td>
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<td><label class="left">Pr&eacute;nom</label></td>
+										<td align="center"><input class="single-area" type="text" name="prenom" size="35" required="required"></td>
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<td><label class="left" for="adresse">Email</label></td>
+										<td align="center"><input class="single-area" type="email" name="email" placeholder="Xyz@exem.ple" size="35" required="required">
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<td><label class="left" for="pasword">Mot de passe</label></td>
+										<td align="center"><input class="single-area" type="password" name="password" size="35" required="required">
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<td><label class="left" for="confimation">Confirmation</label></td>
+										<td align="center"><input class="single-area" type="password" name="confirmation" size="35" required="required">
+									</tr>
+								</thead>
+						</div>
+								<thead>
+									<tr>
+										<td><label class="left">Date de naissance</label></td>
+										<td align="center"><input type="number" name="jour" value="1" min="1" max="31" size="14" >
+											<select class="isinputshutup" id="mois">
+												<option value="janvier">Janvier</option>
+												<option value="fevrier">F&eacute;vrier</option>
+												<option value="mars">Mars</option>
+												<option value="avril">Avril</option>
+												<option value="mai">Mai</option>
+												<option value="juin">Juin</option>
+												<option value="juillet">Juillet</option>
+												<option value="aout">Ao&ucirc;t</option>
+												<option value="septembre">Septembre</option>
+												<option value="octobre">Octobre</option>
+												<option value="novembre">Novembre</option>.
+												<option value="decembre">D&eacute;cembre</option>
+											</select>
+											<input type="number" name="annee" value="2000" min="1920" max="2022" size="14" >
+										</td>
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<td><label class="left" for="genre">Genre</label></td>
+										<td><div class="radio">
+											<table align="center">
+												<tr>
+													<td>
+														<div class="design-radio"><label>Femme</label><input type="radio" name="genre" value="femme" checked></input></div>
+													</td>
+													<td>
+														<div class="design-radio"><label>Homme</label><input type="radio" name="genre" value="homme" checked></input></div> 
+													</td>
+													<td>
+														<div class="design-radio"><label>Non précis&eacute;</label><input type="radio" name="genre" value="NP" checked></input></div>
+													</td>
+												</tr>
+											</table>
+										</div></td>
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<th colspan="2"><hr></th>
+									</tr>
+								<thead>
+								<thead>
+									<tr>
+										<th colspan="2" align="left"><input class="left" type="checkbox" name="pub" value="acceptPub"> Je souhaite recevoir des E-mails &agrave; des fins publicitaires.</th>
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<th colspan="2" align="left"><input class="left" type="checkbox" name="pol" value="accept" required="required"> J'accepte les termes du contrat relatif au compte Malearin et confirme avoir pris connaissance de la politique de confidentialit&eacute; du compte Malearin.</th>
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<th colspan="2"><hr></th>
+									</tr>
+								<thead>
+								<thead>
+									<tr>
+										<th colspan="2"><button type="submit" value="create" onclick="return confirm('Confirm, please.');">Cr&eacute;er mon compte</button></th>
+									</tr>
+								</thead>
+							</table>
+					</form>
+				</div>
+		</section>
+		<!--fin contenus-->
+		 <br/>
+		
+		<!--bas de page/information sur nous + sources-->
+		<footer>
+			<p> &copy; Parzival Developer Team</p>
+		</footer>
+	</body>
+</html>
