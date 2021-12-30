@@ -23,6 +23,8 @@ footer{
 	background:black;			/*couleur du fond*/
 	color:white;				/*couleur du texte*/
 	/* Positionnement du footer */
+	position:fixed;
+	bottom:0;
 	width:100%;					/*taille horizontal du footer*/
 	height:70px;				/*taille vertical du footer*/
 	padding-top:5px;			/*distance entre le haut de la page et le haut*/

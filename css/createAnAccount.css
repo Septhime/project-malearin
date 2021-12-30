@@ -26,9 +26,6 @@ body{
 		
 }
 
-td{
-	/* background-color: red; */
-}
 .forgot{
 	margin-right:-130%;
 	font-size:45%;
@@ -41,11 +38,21 @@ td{
 }
 
 .radio{
-	display:block;
+	display:flex;
+	flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
 	text-align:center;
 	margin-left: auto;
     margin-right: auto;
-	
+}
+
+.input-box{
+	text-align: center;
+}
+
+.check-box{
+	text-align: left;
 }
 
 /* Design des champs */
@@ -67,10 +74,15 @@ select{
     font-size: 14px;
 }
 
+button{
+	width: 184px;
+	height: 42px;
+	border-radius: 10px;
+}
+
 .design-radio{
 	display:inline-block;
     position: relative;
-	border:auto;
     padding: 0px 6px;
     border: 2px solid;
 	border-color:#dfdfdf;

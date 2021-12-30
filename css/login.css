@@ -26,3 +26,28 @@ body{
 	margin-right:-130%;
 	font-size:45%;
 }
+
+/* Design des champs */
+input{
+    min-height: 5px;
+    padding: 6px 8px;
+    border: 2px solid;
+	border-color:#dfdfdf;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+select{
+	min-height: 5px;
+    padding: 5px 5%;
+    border: 2px solid;
+	border-color:#dfdfdf;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button{
+	width: 184px;
+	height: 42px;
+	border-radius: 10px;
+}

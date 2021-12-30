@@ -26,21 +26,44 @@
 				<a href="page1.html"  class="header-link">DLSS et FidelityFx</a>
 				<a href="page2.html"  class="header-link">DeepMind et DeepBlue</a>
 				<a href="page3.html"  class="header-link">Le fonctionnement</a>
-				<a class="header-link">login</a>
+				<a class="header-link">Connexion</a>
 			</nav>
 
 		<hr/>
 		</header>
 		<!--contenus-->
 		<section class="realbody">
-			<h4>Remember it !!!</h4>
+			<h3>Recupération du mot de passe</h3>
+			<!-- Début du formulaire -->
+			<div class="formulaire">
+				<!-- Définition de la méthode d'envoie -->
+				<form method="post">
+					<!-- Mises en place d'un tableau afin de mieux structurer l'ensemble -->
+					<table>
+						<thead>
+							<tr>
+								<!-- Champs d'insertion d'adresse email -->
+								<td><label id="adresse">Email :</label></td>
+								<td><input id="email" type="email"  name="email" placeholder="Xyz@exem.ple" required="required" ></td>
+							</tr>
+							<tr>
+								<td><button onclick="window.location.href='login.html';">Revenir en arri&egrave;re</button></td>
+								<!-- Bouton d'envoi -->
+								<td><button onclick="checkEmail()">Récupérer</button></td>
+							</tr>
+						</thead>
+					</table>
+				</form>
+			</div>
 		</section>
 		<!--fin contenus-->
 		 <br/>
-		
 		<!--bas de page/information sur nous + sources-->
 		<footer>
 			<p> &copy; Parzival Developer Team</p>
 		</footer>
+		<!-- Script JS -->
+		<!-- Recommandation de le placer à la fin afin de ne pas bloquer le chargement de la page et exécuter les scripts uniquement lorsque le DOM est prêt.-->
+		<script src="../js/forgotPass.js"></script>
 	</body>
 </html>

@@ -21,29 +21,45 @@
 			</div>
 				<p><span class="subtitle">Le site internet parlant de l'intelligence artificielle et de l'apprentissage automatique</span></p>
 			<!--navigation entre les pages-->
-			<nav >
+			<nav>
 				<a href="index.html">Home</a>
 				<a href="page1.html"  class="header-link">DLSS et FidelityFx</a>
 				<a href="page2.html"  class="header-link">DeepMind et DeepBlue</a>
 				<a href="page3.html"  class="header-link">Le fonctionnement</a>
-				<a class="header-link">login</a>
+				<a class="header-link">Connexion</a>
 			</nav>
 
 		<hr/>
 		</header>
 		<!--contenus-->
 		<section class="realbody">
-			<h3>Connection  &agrave; Malearin WebSite</h3>
+			<h3>Connexion  &agrave; Malearin WebSite</h3>
+			<!-- Début du formulaire -->
 			<div class="formulaire">
+				<!-- Définition de la méthode d'envoie -->
 				<form method="post">
-					<label for="adresse">Email :</label> <br/>
-					<input type="email" name="email" placeholder="Xyz@exem.ple" required="required">	<br/>
-					<label for="pasword">Mot de passe :</label> <br/>
-					<input type="password" name="password"required="required"> <br/>
-					<button type="submit" value="login">Connection</button>
+					<!-- Mises en place d'un tableau afin de mieux structurer l'ensemble -->
+					<table>
+						<thead>
+							<tr>
+								<td><label id="adresse">Email :</label></td>
+								<!-- Champs d'insertion d'adresse email -->
+								<td><input id="email" type="email"  name="email" placeholder="Xyz@exem.ple" required="required"></td>
+							</tr>
+							<tr>
+								
+								<td><label id="password">Mot de passe :</label></td>
+								<!-- Champs d'insertion de mot de passe -->
+								<td><input id="mdp" type="password"  name="password" required="required"></td>
+							</tr>
+							<tr>
+								<!-- Bouton d'envoi -->
+								<th colspan="2"><button onclick="checklogin()">Connexion</button></th>
+							</tr>
+						</thead>
+					</table>
 				</form>
-				
-				<button class="forgot" onclick="window.location.href='forgotPass.html';">mot de passe oubli&eacute; ?</button>
+				<button class="forgot" onclick="window.location.href='forgotPass.html';">Mot de passe oubli&eacute; ?</button>
 				<button onclick="window.location.href='createAnAccount.html';">Creer un compte</button>
 			</div>
 		</section>
@@ -54,5 +70,8 @@
 		<footer>
 			<p> &copy; Parzival Developer Team</p>
 		</footer>
+		<!-- Script JS -->
+		<!-- Recommandation de le placer à la fin afin de ne pas bloquer le chargement de la page et exécuter les scripts uniquement lorsque le DOM est prêt.-->
+		<script src="../js/login.js"></script>
 	</body>
 </html>
